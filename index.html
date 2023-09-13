@@ -20,32 +20,99 @@
           <span class="nav___logo-circle">A</span>
           <span class="nav__logo_name">Alejandro Fuentes.</span>
         </a>
-        <div class="nav__menu">
+        <div class="nav__menu" id="nav__menu">
           <span class="nav__title">Menu</span>
           <h3 class="nav__name">Alex</h3>
-          <ul class="navv_links">
+          <ul class="nav__list">
             <li class="nav__item"><a href="#home">Inicio</a></li>
             <li class="nav__item"><a href="#about">Sobre Mi</a></li>
             <li class="nav__item"><a href="#proyects">Proyectos</a></li>
             <li class="nav__item"><a href="#contact">Contactame</a></li>
           </ul>
-          <div class="close__button">
-            <i class="fa-solid fa-xmark"></i>
+          <div class="nav__close" id="nav__close">
+            <i class="uil uil-multiply"></i>
           </div>
         </div>
         <div class="nav__buttons">
           <div class="button__toggle" id="button__toggle">
-            <i class="fa-solid fa-bars-staggered"></i>
+            <i class="uil uil-align-center-alt"></i>
           </div>
         </div>
       </nav>
     </header>
-
-    <!-- Font-awesome -->
-    <script
-      src="https://kit.fontawesome.com/b4395588e4.js"
-      crossorigin="anonymous"
-    ></script>
+    <!--==========Main-Page==========-->
+    <main class="main">
+      <!--==========Home==========-->
+      <section class="section home" id="home">
+        <article class="home__container container grid">
+          <h2 class="home__name">Alejandro Fuentes</h2>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img
+                class="home__img"
+                src="Assets/IMG/profileImage.webp"
+                alt="MyImage"
+              />
+              <div class="home__shadow"></div>
+              <img
+                src="Assets/IMG/curved-arrow.svg"
+                alt="curved-arrow"
+                class="home__arrow"
+              />
+              <img
+                src="Assets/IMG/random-lines.svg"
+                alt="line"
+                class="home__line"
+              />
+              <div class="geometric-box"></div>
+            </div>
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/bryan-fuentes-89658a270/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/Alejandro6660"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/devalex.f/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="uil uil-instagram-alt"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Desarrollador Full-Stack</b>, con conocimientos en web
+              desarrollo y diseño, ofrezco lo mejor proyectos que resulten en un
+              trabajo de calidad.
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__arrow">
+                <i class="uil uil-angle-down"></i>
+              </div>
+              <span class="home__scrolltxt">Desliza</span>
+            </a>
+          </div>
+        </article>
+      </section>
+      <!--==========About==========-->
+      <section class="section about" id="about"></section>
+    </main>
+    <!-- ICONS-SCOUT -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
     <!-- scrip-main -->
     <script src="Assets/JS/main.js"></script>
   </body>
