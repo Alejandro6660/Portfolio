@@ -1,3 +1,4 @@
+/*==========SHOW AND CLOSE NAV==========*/
 const d = document;
 /*=====Show__nav=====*/
 const $navMenu = d.getElementById("nav__menu"),
@@ -22,3 +23,10 @@ if ($navLink) {
     });
   });
 }
+/*==========SHOW shadow header==========*/
+const $head = d.getElementById("head");
+window.addEventListener("scroll", () => {
+  this.scrollY >= 25
+    ? $head.classList.add("head__shadow")
+    : $head.classList.remove("head__shadow");
+});
