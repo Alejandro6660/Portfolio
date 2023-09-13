@@ -4,8 +4,18 @@ redes
 3.- https://www.instagram.com/devalex.f/
 
 Info about
-Desarrollador Full-Stack, con conocimientos en web
-desarrollo y diseño, ofrezco lo mejor
-proyectos que resulten en un trabajo de calidad.
+Desarrollador Full-Stack, con conocimientos en desarrollo web 
+y diseño, siempre aprendiendo de los proyectos personales que realizo
+y no dejo de lado el estudio. 
 
 en mi tiempo como desarrollador web, he aprendido a dominar múltiples lenguajes de programación, herramientas y técnicas que me han permitido crear sitios web y aplicaciones interactivas. Cada proyecto ha sido una oportunidad para crecer y mejorar mis habilidades, y estoy emocionado por lo que el futuro me depara en este campo.
+
+Front-end 
+
+Realizo paginas web estaticas como por ejemplo este mismo portafolio; 
+Utilizando ya sea las tecnologias de base como lo son HTML CSS Y JavaScript
+
+Back-end
+
+Se trabajar con las bases de datos relacionales, como lo son Sql Server y MySql;
+Tambien poseo conocimiento basico de PHP y C# asi como trabajar con Framworks como ASP.NET

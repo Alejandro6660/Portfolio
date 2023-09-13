@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- ICONS-SCOUT -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
     <link rel="stylesheet" href="/Assets/CSS/style.css" />
     <title>Alejandro Dev</title>
   </head>
@@ -26,6 +31,7 @@
           <ul class="nav__list">
             <li class="nav__item"><a href="#home">Inicio</a></li>
             <li class="nav__item"><a href="#about">Sobre Mi</a></li>
+            <li class="nav__item"><a href="#services">Servicios</a></li>
             <li class="nav__item"><a href="#proyects">Proyectos</a></li>
             <li class="nav__item"><a href="#contact">Contactame</a></li>
           </ul>
@@ -86,15 +92,15 @@
                 target="_blank"
                 class="home__social-link"
               >
-                <i class="uil uil-instagram-alt"></i>
+                <i class="uil uil-instagram"></i>
               </a>
             </div>
           </div>
           <div class="home__info">
             <p class="home__description">
-              <b>Desarrollador Full-Stack</b>, con conocimientos en web
-              desarrollo y diseño, ofrezco lo mejor proyectos que resulten en un
-              trabajo de calidad.
+              <b>Desarrollador Full-Stack</b>, con conocimientos en desarrollo
+              web y diseño, siempre aprendiendo de los proyectos personales que
+              realizo y no dejo de lado el estudio.
             </p>
             <a href="#about" class="home__scroll">
               <div class="home__scroll-box">
@@ -105,10 +111,12 @@
           </div>
         </article>
       </section>
-      <!--==========About==========-->
+      <!--==========About===========-->
       <section class="section about" id="about">
+        <h2 class="section__title-1">
+          <span>Sobre Mi.</span>
+        </h2>
         <article class="about__container container grid">
-          <h2 class="section__title-1">Sobre Mi.</h2>
           <div class="about__perfil">
             <div class="about__image">
               <img
@@ -157,12 +165,50 @@
           </div>
         </article>
       </section>
+      <!--==========Servces==========-->
+      <section class="services section" id="services">
+        <h2 class="section__title-2">
+          <span>Servicios.</span>
+        </h2>
+        <article class="services__container container grid">
+          <!-- Card 1 -->
+          <div class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="uil uil-web-grid"></i>
+              </div>
+              <h2 class="services__title">Front-end</h2>
+
+              <p class="services__description">
+                Realizo paginas web estaticas como por ejemplo este mismo
+                portafolio; Utilizando ya sea las tecnologias de base como lo
+                son HTML CSS Y JavaScript
+              </p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="uil uil-arrow"></i>
+              </div>
+              <h2 class="services__title">Back-end</h2>
+
+              <p class="services__description">
+                Se trabajar con las bases de datos relacionales, como lo son Sql
+                Server y MySql; Tambien poseo conocimiento basico de PHP y C#
+                asi como trabajar con Framworks como ASP.NET
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
-    <!-- ICONS-SCOUT -->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
     <!-- scrip-main -->
     <script src="Assets/JS/main.js"></script>
   </body>
